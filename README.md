@@ -17,11 +17,11 @@ Next, update Composer from the Terminal:
 composer update
 ```
 
-Once the package has been installed you'll need to add the service provider. Open your `app/config/app.php` configuration file, and add a new item to the `provider
+Once the package has been installed you'll need to add the service provider. Open your `app/config/app.php` configuration file, and add a new item to the `providers` array.
+
 ```php
 'Imzoke\Hashids\HashidsServiceProvider'
-```s` array.
-
+```
 
 After doing this you also need to add an alias. In your `app/config/app.php` file, add this to the `aliases` array.
 
