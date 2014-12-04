@@ -1,0 +1,24 @@
+{
+    "name": "imzoke/laravel-hashids",
+    "description": "Laravel package for Hashids",
+    "authors": [
+        {
+            "name": "imzoke",
+            "email": "imzoke@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "hashids/hashids": "1.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Imzoke\\Hashids\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
