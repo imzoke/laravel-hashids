@@ -1,6 +1,7 @@
 {
     "name": "imzoke/laravel-hashids",
     "description": "Laravel package for Hashids",
+    "keywords": ["laravel", "hash", "hashid", "encrypt", "decrypt"],
     "authors": [
         {
             "name": "imzoke",
